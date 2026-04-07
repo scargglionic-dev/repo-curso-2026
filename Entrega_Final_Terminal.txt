@@ -1,0 +1,422 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20260406014456
+Nombre de usuario: SCG28\gtisc
+Usuario RunAs: SCG28\gtisc
+Nombre de la configuración: 
+Máquina: SCG28 (Microsoft Windows NT 10.0.26200.0)
+Aplicación host: C:\Windows\system32\WindowsPowerShell\v1.0\powershell.exe
+Id. de proceso: 6120
+PSVersion: 5.1.26100.7920
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.7920
+BuildVersion: 10.0.26100.7920
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es C:\Users\gtisc\Desktop\Entrega_Final_Terminal.txt
+PS C:\Users\gtisc\Documents> sl~
+
+sl ~
+
+Get-ChildItem (gci, ls)
+
+Get-ChildItem
+
+sl desktop
+
+gci
+
+sl ..
+
+sl ~
+
+mkdir scg
+
+gci
+
+sl d
+
+mkdir scg
+
+sl scg
+
+sl d
+
+mkdir dir, dir1, dir2
+
+rm dire
+
+rm dir
+
+mkdir dir, dir1, dir2
+
+sl dir
+
+sl ..\..\..\..
+
+pushd Users\gtisc\scg> sl dir
+
+ pushd Users\gtisc\scg/dir1
+
+popd
+
+ni ejemplo.txt
+
+sl scg
+
+ pushd Users\gtisc\scg
+
+ni ejemplo.txt
+
+gci
+
+ni ejemplo1.txt, ejemplo2.txt
+
+sl ~
+
+git clone https://gitlab.com/netlab.iiep/econ-520/-/tree/master
+
+Get-ChildItem
+
+mkdir CsdeDatosEcon
+
+gci
+
+sl ..
+
+sl *
+
+sl ~
+
+sl CsdeDatosEcon
+
+sl CsdeDatosEcon/deskpot
+
+sl CsdeDatosEcon/desktop
+
+git clone https://gitlab.com/netlab.iiep/econ-520/-/tree/master
+
+sl CsdeDatosEcon
+
+git clone https://gitlab.com/netlab.iiep/econ-520.git
+
+$logPath = "C:\Users\gtisc\CsdeDatosEcon\trasncripcion-tarea01-$(Get-Date -Format 'yyyyMMdd_HHmmss').log"
+
+Start-Transcript -Path $logPath -Append
+
+pwd
+
+cd home
+
+cd CsdeDatosEcon
+
+cd ..
+
+cd CsdeDatosEcon
+
+PWD
+
+cd home
+
+DesktopDuserwhoami
+
+Desktop D user whoami
+
+whoami
+
+cd C:\Users\gtisc\CsdeDatosEcon
+
+cd C:/Users/gtisc/Desktop
+
+pwd
+
+cd ~
+
+cd CsdeDatosEcon
+
+cd*
+
+cd ~
+
+cd Desktop
+
+cd ..
+
+mkdir PracticaTutorial
+
+cd PracticaTutorial
+
+mkdir dir1 dir2 dir3
+
+mkadir dir1,dir2,dir3
+
+mkdir dir1, dir2, dir3
+
+ls
+
+mkdir dir4/dir5/dir6
+
+ls
+
+cd dir4
+
+ls
+
+cd dir5
+
+ls
+
+mkdir "folder1"
+
+mkdir "folder2"
+
+mkdir "folder3"
+
+mkdir "folder4" "folder5"
+
+mv folder3 ..
+
+ls
+
+cd ~
+
+cd PracticaTutorial
+
+ls
+
+mv dir4/dir5/dir6/folder*
+
+ls
+
+mv dir4/dir5/dir6/folder*.
+
+ls
+
+mv dir4/dir5/dir6/folder* .
+
+ls
+
+cd dir4\dir5\dir6
+
+LS
+
+ls
+
+cd dir5
+
+cd ..
+
+ls
+
+cd ..
+
+mv folder* ../../
+
+ls
+
+mv C:\Users\folder* .
+
+ls
+
+cd ..
+
+ls
+
+cd PracticaTutorial
+
+ls
+
+cd dir5
+
+cd dir4
+
+ls
+
+mv folder3 ..
+
+cd dir5
+
+ls
+
+mv folder1 folder2 ..
+
+mv folder1, folder2 ..
+
+cd dir4
+
+cd ~
+
+cd PracticaTutorial
+
+cd dir4
+
+ls
+
+mv folder1, folder2 ..
+
+cd ..
+
+ls
+
+mkdir folder4, folder5, folder, folder6, another
+
+ls
+
+ls > output.txt
+
+ls
+
+cat output.txt
+
+gato
+
+cat cat
+
+echo "this a text"
+
+echo "This is a test" > test_1.txt
+
+echo "This is a second test" > test_2.txt
+
+echo "This is a third test" > test_3.txt
+
+ls
+
+cat test_1.txt test_2.txt test_3.txt
+
+cat test_1.txt, test_2.txt, test_3.txt
+
+cat test_*.txt
+
+cat test_?.txt
+
+ls tcat t*t
+
+ls t cat t* t
+
+cat t*t
+
+cat t* > combined.txt
+
+LS
+
+cat combined.txt
+
+cat t* >> combined.txt
+
+echo "I've appended a line!" >> combined.txt
+
+cat combined.txt
+
+cat t* >> combined.txt
+
+ls >> combined.txt
+
+date >> combined.txt
+
+echo "ESTA ES UNA LINEA DE RELLENO PARA HACER EL ARCHIVO MUY LARGO" >> combined.txt
+
+cat combined.txt
+
+less combined.txt
+
+y
+
+less combined.txt
+
+more combined.txt
+
+mv combined.txt dir1
+
+ls dir1
+
+cd dir1
+
+mv combined.txt ..
+
+cd ..
+
+ls
+
+ls dir1
+
+cp dir4/dir5/dir6/combined.txt .
+
+cp dir4\dir5\dir6\combined.txt .
+
+cp combined.txt dir4\dir5\dir6\
+
+ls dir4\dir5\dir6
+
+cp combined.txt backup_combined.txt
+
+ls
+
+mv backup_combined.txt combined_backup.txt
+
+ls
+
+rm dir4\dir5\dir6\combined.txt, combined_backup.txt
+
+rm folder_*
+
+ls
+
+rmdir folder*
+
+ls
+
+wc -l combined.txt
+
+ls ~ > file_list.txt
+
+ls
+
+cat file_list.txt
+
+ls  file_list.txt
+
+wc -l file_list.txt
+
+wc -l combined.txt
+
+rm file_list.txt
+
+ls
+
+ls ~ | wc -l
+
+ls C:\Windows | wc -l
+
+ls C:\Windows | less
+
+cat combined.txt | uniq | wc -l
+
+cat combined.txt | uniq | less
+
+help uniq
+
+help uniq -online
+
+sort combined.txt | less
+
+sort combined.txt
+En línea: 5 Carácter: 19
++ Get-ChildItem (gci, ls)
++                   ~
+Falta un argumento en la lista de parámetros.
+En línea: 5 Carácter: 19
++ Get-ChildItem (gci, ls)
++                   ~
+Falta un argumento en la lista de parámetros.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingArgument
+
+PS C:\Users\gtisc\Documents> Stop-Transcript
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20260406174850
+**********************
